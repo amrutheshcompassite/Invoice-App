@@ -21,6 +21,7 @@ return [
     'user_suspended'            => 'Your account is temporarily suspended. Please contact admin.',
     'user_inactive'             => 'Your account is temporarily inactive. Please contact admin.',
     'force_logout'              => 'You are already logged in other device.Do you want to do Force Logout..?',
+    'invalid_credentials'       => 'Invalid Credentials',
 
     //Admin
     'admin_login'               => 'Admin Logged in Successfully',

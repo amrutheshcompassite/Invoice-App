@@ -20,6 +20,7 @@ $api->version('v1', function ($api) {
     $api->group(['namespace' => 'App\Http\Controllers\API\v1'], function ($api) {
 
         $api->post('user/register', 'UserAPIController@register');
+        $api->post('user/login', 'UserAPIController@login');
 
     });
 
