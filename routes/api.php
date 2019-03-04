@@ -21,6 +21,8 @@ $api->version('v1', function ($api) {
 
         $api->post('user/register', 'UserAPIController@register');
         $api->post('user/login', 'UserAPIController@login');
+        $api->get('countries/all', 'CountryAPIController@getCountryList');
+        $api->post('cities/all/{id}', 'CountryAPIController@getCityList');
 
     });
 
