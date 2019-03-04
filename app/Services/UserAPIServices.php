@@ -4,7 +4,7 @@ namespace App\Services;
 
 use App\Http\Controllers\API\ApiBaseController;
 /**
- * Class UserAPIController
+ * Class UserAPIServices
  * @package App\Http\Controllers\API
  */
 class UserAPIServices extends  ApiBaseController

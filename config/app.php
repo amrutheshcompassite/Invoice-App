@@ -162,6 +162,7 @@ return [
         Khsing\World\WorldServiceProvider::class,
         Dingo\Api\Provider\LaravelServiceProvider::class,
         Laravel\Passport\PassportServiceProvider::class,
+        'Webpatser\Countries\CountriesServiceProvider',
 
 
     ],
